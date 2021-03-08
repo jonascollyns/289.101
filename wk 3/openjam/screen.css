@@ -58,10 +58,28 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: #586;
+    font-size: 19px;
 }
 
 #what h1 {
     text-align: center;
     padding: 25px 0;
     color: #586
+}
+
+#what p + p {
+    font-size: 16px;
+}
+
+#what h2 {
+    color: #586;
+    text-align:  center;
+}
+
+#what img {
+    max-width: 250px;
+    width: 100%;
+    padding-left: 30px;
+    
 }
