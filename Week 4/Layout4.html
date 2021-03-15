@@ -22,21 +22,24 @@
         }
 
         #green {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             background-color: green;
             height: 200px;
-            
-        }
-        
-        #yellow {
-            background-color: yellow;
-            margin: 20;
-            grid-template-columns: 50% 50%;
         }
         
         #red {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             background-color: red;
             height: 400px;
         }
+
+        .yellow {
+            background-color: yellow;
+            margin: 20px;
+        }
+        
     </style>
 
 </head>
@@ -46,8 +49,10 @@
         <div id="blue"></div>
         <div id="green">
             <div class="yellow"></div>
+            <div class="yellow"></div>
         </div>
         <div id="red">
+            <div class="yellow"></div>
             <div class="yellow"></div>
         </div>
     </div>
