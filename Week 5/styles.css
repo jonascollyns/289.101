@@ -1,6 +1,3 @@
-* {
-    outline: 1px dotted line;
-}
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @media screen and (max-width: 500px) {
     body {
@@ -54,10 +51,196 @@ body {
     width: 90%;
 }
 #services {
-    height: 600px;
+    height: auto;
     color: #666d89;
-    padding-top: 50px;
+    padding-right: 30px
+}
+#services h1 {
+    padding-top: 30px;
     padding-left: 30px;
+}
+#services p {
+    padding-left: 30px;
+    font-weight: lighter;
+}
+#services img {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+}
+#portfolio {
+    height: auto;
+    background-color: #2d2f3b;
+    color: #666d89;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#portfolio .all_btn {
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 2em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+#portfolio .webd_btn {
+    color: #666d89;
+    cursor: pointer;
+    border: 2px solid #666d89;
+    border-radius: 2em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+#portfolio .grad_btn {
+    color: #666d89;
+    cursor: pointer;
+    border: 2px solid #666d89;
+    border-radius: 2em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+#portfolio .artw_btn {
+    color: #666d89;
+    cursor: pointer;
+    border: 2px solid #666d89;
+    border-radius: 2em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+#portfolio .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#one img{
+    padding-top: 20px;
+    width: 90%;
+    grid-column: 1/5;
+    text-align: center;
+}
+#two img{
+    padding-top: 20px;
+    width: 90%;
+    grid-column: 2/5;
+    text-align: center;
+}
+#three img{
+    padding-top: 20px;
+    width: 90%;
+    grid-column: 3/5;
+    text-align: center;
+}
+#four img{
+    padding-top: 20px;
+    width: 90%;
+    grid-column: 4/5;
+    text-align: center;
+}
+#about {
+    height: auto;
+    padding-left: 30px;
+    background-color: #f2f2f2;
+    color: #666d89;
+    margin-right: 30px
+}
+#about p {
+    color: #787f9c;
+    padding-bottom: 10px;
+}
+.people {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
+#lady1 img {
+    width: 90%;
+    grid-column: 1/4;
+}
+#man1 img {
+    width: 90%;
+    grid-column: 2/4;
+}
+#lady2 img {
+    width: 90%;
+    grid-column: 3/4;
+}
+.people p {
+    padding-left: 20px;
+    text-align: left;
+}
+.people h2 {
+    padding-left: 20px;
+    text-align: left;
+}
+.people p + img {
+    max-width: 200px;
+    padding-bottom: 90px;
+}
+#quote {
+    background-color: #f16c65;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #f2f2f2;
+}
+.form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#name {
+    grid-column: 1/2;
+    background-color: #d75650;
+    color: #f16c65;
+    cursor: text;
+    border-radius: 2em;
+    padding: 10px 10px;
+}
+#email {
+    grid-column: 1/2;
+    background-color: #d75650;
+    color: #f16c65;
+    cursor: text;
+    border-radius: 2em;
+    padding: 10px 10px;
+}
+#sub {
+    grid-column: 1/2;
+    background-color: #d75650;
+    color: #f16c65;
+    cursor: text;
+    border-radius: 2em;
+    padding: 10px 10px;
+}
+#desc {
+    grid-column: 1/2;
+    background-color: #d75650;
+    color: #f16c65;
+    cursor: text;
+    border-radius: 2em;
+    padding: 10px 10px;
+    padding-bottom: 200px;
+}
+#contactinfo {
+    grid-column: 3/2;
+    padding-left: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
