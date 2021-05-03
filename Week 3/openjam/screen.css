@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+
+body {
+    background-color: #82DDB5;
+    background-image: url(img/illustration.gif), url(img/texture.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: center 280px, left top;
+    background-size: 800px, auto;
+    font-family: 'quicksand', 'sans-serif';
+    margin: 0;
+}
+
+#nav {
+    background-color: #6B9;
+    padding: 20px 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+    border-bottom: 2px dashed #487;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    max-width: 360px;
+    width: 100%;
+}
+
+#description, #date {
+    max-width: 220px;
+    width: 100%;
+}
+
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #a43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    background-color: rgba(200, 240, 220, 0.9);
+}
+
+#what p {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    font-size: 19px;
+}
+
+#what h1 {
+    text-align: center;
+    padding: 25px 0;
+    color: #347788;
+}
+
+#what p + p {
+    font-size: 16px;
+}
+
+#what h2 {
+    color: #347788;
+    text-align:  center;
+}
+
+#what img {
+    max-width: 297px;
+    width: 100%;
+}
+
+#why h1 {
+    text-align: center;
+    padding: 25px 0;
+    color: #347788;
+}
+
+#why p {
+    font-size: 16px;
+    color: #347788;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#where {
+    background-image: url(img/map.gif);
+    background-size: 100%; 
+    background-repeat: no-repeat, repeat-x;
+}
+
+#where h1 {
+    color: #347788;
+    padding: 25px 0;
+    text-align: center;   
+}
+
+#where p {
+    color: #347788;
+    text-align:  right;
+    font-weight: bold;
+    padding-right: 450px;
+}
+
+#when {
+    background-image: url(img/wires.png);
+    background-color: #439998;
+    background-size: auto;
+}
+
+#when h1 {
+    color: white;
+    padding: 25px 0;
+    text-align: center;   
+}
+
+#when h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#when h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 4px dashed white;
+}
+
+#when ul {
+    padding-left: 450px;
+    color: white; 
+    padding-bottom: 20px;
+}
+
+#who {
+    background-color: #f5f5f5;
+}
+
+#who h1 {
+    color: #347788;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#who p {
+    font-size: 19px;
+    color: #347788;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#who p + p {
+    font-size: 15px;
+    color: #347788;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#footer img {
+    padding-left: 560px;
+    max-width: 100px;
+}
+
+#footer img + img {
+    padding-left: 50px;
+    max-width: 100px;
+}
+
