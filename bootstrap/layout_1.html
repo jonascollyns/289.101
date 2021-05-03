@@ -11,17 +11,27 @@
                 background-color: #3FB4FF;
                 height: 50px;
             }
-            body { background-color: red }
-            @media (min-width: 576px) {
+            .green {
+                background-color: lime;
+                height: 120px;
+            }
+            .orange {
+                background-color: orange;
+                height: 210px;
+            }
+/* xs DF */ body { background-color: red }
+/* sm */    @media (min-width: 576px) {
             body { background-color: orange }
             }
-            @media (min-width: 768px) {
+/* md */    @media (min-width: 768px) {
             body { background-color: yellow }
+            .green {height: 170px;}
             }
-            @media (min-width: 992px) {
+/* lg */    @media (min-width: 992px) {
             body { background-color: green }
+            .green {height: 240px;}
             }
-            @media (min-width: 1200px) {
+/* xl */    @media (min-width: 1200px) {
             body { background-color: blue }
             }
         }
@@ -34,7 +44,12 @@
                 <div class="col-lg-6 blue"></div>
             </div>
             <div class="row">
-                <div class="col-lg-12 green"></div>
+                <div class="col-12 green"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 orange"></div>
+                <div class="col-12 orange"></div>
+                <div class="col-12 orange"></div>
             </div>
         </div>
 
