@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout 1</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <style>
+            * { outline: white 8px solid }
+            .blue {
+                background-color: #3FB4FF;
+                height: 120px;
+            }
+            .green {
+                background-color: lime;
+                height: 120px;
+            }
+            .orange {
+                background-color: orange;
+                height: 830px;
+            }
+            .pink {
+                background-color: pink;
+                height: 320px;                
+            }
+/* xs DF */ body { background-color: red }
+/* sm */    @media (min-width: 576px) {
+            body { background-color: orange }
+            }
+/* md */    @media (min-width: 768px) {
+            body { background-color: yellow }
+            
+            }
+/* lg */    @media (min-width: 992px) {
+            body { background-color: green }
+            .blue {
+                height: 80px;
+                width: 100%;
+            }
+                        
+            }
+/* xl */    @media (min-width: 1200px) {
+            body { background-color: blue }
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 blue"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 green"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 pink"></div>
+            </div>
+        </div>
+
+    </body>
+</html> 
